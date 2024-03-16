@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quality Engineering Innovation Team</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    header {
+        background: #005A9C;
+        color: #ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #0760AB 3px solid;
+    }
+    header h1 {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        background: #03396c;
+    }
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .intro {
+        padding: 20px 0;
+        background-color: #e8e8e8;
+    }
+    .intro h2, .intro p {
+        text-align: center;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .content > div {
+        flex: 1;
+        padding: 20px;
+    }
+    .footer {
+        background: #333333;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Quality Engineering Innovation Team</h1>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+</nav>
+<div class="intro container">
+    <h2>Welcome to Our Innovation Page</h2>
+    <p>Discover how we're driving quality engineering into the future.</p>
+</div>
+<div class="container content">
+    <div>
+        <h3>About Us</h3>
+        <p>The Quality Engineering Team is at the forefront of integrating innovative quality assurance practices with cutting-edge technology to ensure the highest standards of quality across all our projects.</p>
+    </div>
+    <div>
+        <h3>Featured Innovations</h3>
+        <p>Explore our latest innovations in quality engineering, from automated testing frameworks to AI-driven quality analysis tools.</p>
+    </div>
+</div>
+<div class="container">
+    <h3>Testimonials</h3>
+    <blockquote>
+        "This team's commitment to quality and innovation has significantly enhanced our project outcomes."
+    </blockquote>
+    <blockquote>
+        "The innovative tools and processes introduced by the Quality Engineering Team have set new industry standards."
+    </blockquote>
+</div>
+<footer class="footer">
+    <p>Contact Us for more information on our projects and innovations.</p>
+</footer>
+</body>
+</html>
