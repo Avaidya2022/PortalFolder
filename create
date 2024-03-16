@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit Your Idea - Quality Engineering Innovation Team</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    header {
+        background: #005A9C;
+        color: #ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #0760AB 3px solid;
+    }
+    header h1 {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        background: #03396c;
+    }
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .idea-form {
+        background-color: #e8e8e8;
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .idea-form h3 {
+        margin-top: 0;
+    }
+    input[type="text"], textarea, select, input[type="file"] {
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+        display: inline-block;
+        background: #005A9C;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background: #03396c;
+    }
+    .footer {
+        background: #333333;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Submit Your Idea - Quality Engineering Innovation Team</h1>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+</nav>
+<div class="container">
+    <div class="idea-form">
+        <h3>Have an Innovative Idea? Share It With Us!</h3>
+        <form>
+            <p><label for="title">Idea Title:</label><br>
+            <input type="text" id="title" name="title" required></p>
+            
+            <p><label for="category">Category:</label><br>
+            <select id="category" name="category" required>
+                <option value="">Select a category</option>
+                <option value="technology">Technology</option>
+                <option value="process_improvement">Process Improvement</option>
+                <option value="product_development">Product Development</option>
+                <option value="other">Other</option>
+            </select></p>
+            
+            <p><label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="5" required></textarea></p>
+            
+            <p><label for="benefits">Potential Benefits:</label><br>
+            <textarea id="benefits" name="benefits" rows="3" required></textarea></p>
+            
+            <p><label for="impact">Expected Impact:</label><br>
+            <textarea id="impact" name="impact" rows="2" required></textarea></p>
+            
+            <p><label for="contact">Your Contact Information:</label><br>
+            <input type="text" id="contact" name="contact" placeholder="Email or phone number" required></p>
+            
+            <p><label for="attachments">Attachments (optional):</label><br>
+            <input type="file" id="attachments" name="attachments"></p>
+            
+            <input type="submit" value="Submit Idea">
+        </form>
+    </div>
+</div>
+<footer class="footer">
+    <p>Contact Us for more information on our projects and innovations.</p>
+</footer>
+</body>
+</html>
