@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notable POCs - Quality Engineering Innovation Team</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    header {
+        background: #005A9C;
+        color: #ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #0760AB 3px solid;
+    }
+    header h1 {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        background: #03396c;
+    }
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .poc-section {
+        background-color: #e8e8e8;
+        margin: 20px 0;
+        padding: 20px;
+    }
+    .poc-section h3 {
+        margin-top: 0;
+    }
+    .footer {
+        background: #333333;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Notable POCs - Quality Engineering Innovation Team</h1>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+</nav>
+<div class="container">
+    <!-- POC Section 1 -->
+    <div class="poc-section">
+        <h3>POC Title 1</h3>
+        <p>Brief description of the POC, highlighting its objectives and achievements.</p>
+        <p><strong>Confluence Link:</strong> <a href="#">View Details</a></p>
+        <p><strong>Key Contacts:</strong> John Doe (johndoe@example.com), Jane Smith (janesmith@example.com)</p>
+    </div>
+    
+    <!-- POC Section 2 -->
+    <div class="poc-section">
+        <h3>POC Title 2</h3>
+        <p>Brief description of the POC, highlighting its objectives and achievements.</p>
+        <p><strong>Confluence Link:</strong> <a href="#">View Details</a></p>
+        <p><strong>Key Contacts:</strong> Mike Ross (mikeross@example.com), Rachel Zane (rachelzane@example.com)</p>
+    </div>
+    
+    <!-- Add more POC sections as needed -->
+</div>
+<footer class="footer">
+    <p>Contact Us for more information on our projects and innovations.</p>
+</footer>
+</body>
+</html>
